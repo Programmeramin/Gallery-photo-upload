@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-container {
+    margin: 10px;
+}
+img {
+    max-width: 200px;
+    max-height: 200px;
+    border: 2px solid #ccc;
+}
+input[type="file"] {
+    display: none;
+}
+label {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
